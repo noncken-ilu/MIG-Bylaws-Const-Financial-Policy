@@ -10,7 +10,7 @@
 %Formatting the titles and table of contents
 \setlength{\cftsecnumwidth}{2.5em} 
 \cftsetindents{subsection}{2.5em}{3em}
-\cftsetindents{subsubsection}{5.5em}{2.5em}
+\cftsetindents{subsubsection}{5.5em}{3em}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 \renewcommand*\contentsname{\centering\large Contents}
 \renewcommand{\thesection}{\Roman{section}}
@@ -28,6 +28,13 @@
 \renewcommand{\labelenumi}{(\alph{enumi})}
 \renewcommand{\labelenumii}{(\roman{enumii})}
 \renewcommand{\labelenumiii}{\arabic{enumiii}.}
+
+% Creates subsection lists because why not
+\newcommand{\subsecitem}[2]{\addcontentsline{toc}{subsubsection}{\protect\numberline{\thesubsection.#1}#2} \label{\thesubsection.#1}
+    \textsc{#2}:}
+
+% For referencing subsubsections
+\newcommand{\rref}[1]{\hyperref[#1]{#1}}
 
 \hypersetup{
 colorlinks=true,
