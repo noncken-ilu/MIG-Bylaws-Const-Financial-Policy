@@ -1,0 +1,134 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[hmargin=3.81cm,vmargin=3.81cm]{geometry} %Changes Margins
+\usepackage{titlesec} %Tools for editing section titles
+\usepackage{appendix} %Appendix creation tools
+\usepackage{tocloft} %Table of Contents
+\usepackage{xfrac} %Fancy Fractions
+\usepackage{hyperref} %Allows for linking to sections and external links
+
+%Formatting the titles and table of contents
+\setlength{\cftsecnumwidth}{2.5em} 
+\cftsetindents{subsection}{2.5em}{3em}
+\cftsetindents{subsubsection}{5.5em}{2.5em}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand*\contentsname{\centering\large Contents}
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsubsection}{\thesubsection.\alph{subsubsection}}
+
+\titleformat{\section}[display]{\centering\bfseries}{Bylaw \ \thesection}{0.1cm}{}
+\titleformat{\subsection}[runin]{\scshape}{Section \thesubsection }{0.2cm}{}
+\titleformat{\subsubsection}[runin]{}{(\alph{subsubsection})}{0.1cm}{\textsc}
+
+% Fixes contents title centering
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill\hfill}
+
+% Changes symbols for numerical lists
+\renewcommand{\labelenumi}{(\alph{enumi})}
+\renewcommand{\labelenumii}{(\roman{enumii})}
+\renewcommand{\labelenumiii}{\arabic{enumiii}.}
+
+\hypersetup{
+colorlinks=true,
+linkcolor=blue
+} %Allows for linking between sections and to separate sites
+
+\begin{document}
+
+%Title page
+\begin{titlepage}
+    \centering
+    \vspace*{3.7cm}
+
+    \LARGE\textbf{Tau Beta Pi – Michigan Gamma Chapter}
+    \break
+    
+    \LARGE\textbf{Bylaws}
+    \break
+    \large
+    
+    Adopted: 12 November 2013
+    \\
+    Last Revised by the chapter: (date)
+    \\
+    Appendices last revised by Officer Corps: (date)
+    \vspace{2.5cm}
+    
+    \includegraphics[width=0.5\textwidth]{TBP Logo.png} \\[1cm]
+    
+\end{titlepage}
+
+\pagenumbering{roman} %Table of contents page numbers
+\tableofcontents
+\newpage
+
+
+\setcounter{page}{1} %Resets page numbers
+\pagenumbering{arabic}
+
+\section{Government} \label{I}
+\input{government}
+
+\section{Election of Officers} \label{II}
+\input{election_of_officers}
+
+\section{Election of Advisors} \label{III}
+\input{election_of_advisors}
+
+
+\section{Appointment of Officers and Chairs} \label{IV}
+\input{officer_chair_appointment}
+
+
+\section{Meetings}
+\input{meetings}
+
+
+\section{Election of New Members} \label{VI}
+\input{new_members}
+
+
+\section{Records and Finance} \label{VII}
+\input{records_finance}
+
+
+\section{Active Status}
+\input{active_status}
+
+
+\appendix
+\titleformat{\section}[display]{\centering\bfseries}{Appendix \ \thesection}{0.1 cm}{}
+
+\section{Undergraduate Electee Requirements} \label{A}
+\input{undergrad_req}
+
+
+\section{Graduate Electee Requirements} \label{B}
+\input{grad_req}
+
+
+\section{Alumni Candidate Requirements} \label{C}
+\input{alumni_req}
+
+
+\section{Distinguished Active Status Guidelines} \label{D}
+\input{DA_req}
+
+
+\section{Prestigious Active Status Guidelines} \label{E}
+\input{PA_req}
+
+
+\section{Officer Requirements and Descriptions} \label{F}
+\input{officer_descriptions_and_reqs}
+
+
+\section{Committees} \label{G}
+\input{committees}
+
+
+\section{Chairs} \label{H}
+\input{chairs}
+
+\end{document}
