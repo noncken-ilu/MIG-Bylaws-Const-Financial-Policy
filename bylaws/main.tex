@@ -11,6 +11,9 @@
 \setlength{\cftsecnumwidth}{2.5em} 
 \cftsetindents{subsection}{2.5em}{3em}
 \cftsetindents{subsubsection}{5.5em}{3em}
+\cftsetindents{paragraph}{8.5em}{3.5em}
+\setlength{\cftbeforesecskip}{0pt}
+\setcounter{tocdepth}{4}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 \renewcommand*\contentsname{\centering\large Contents}
 \renewcommand{\thesection}{\Roman{section}}
@@ -32,6 +35,9 @@
 % Creates subsection lists because why not
 \newcommand{\subsecitem}[2]{\addcontentsline{toc}{subsubsection}{\protect\numberline{\thesubsection.#1}#2} \label{\thesubsection.#1}
     \textsc{#2}:}
+
+%why does this need to exist?
+\newcommand{\paritem}[2]{\addcontentsline{toc}{paragraph}{\protect\numberline{\thesubsubsection#1}#2} \label{\thesubsubsection#1}}
 
 % For referencing subsubsections
 \newcommand{\rref}[1]{\hyperref[#1]{#1}}
@@ -71,71 +77,73 @@ linkcolor=blue
 \newpage
 
 
-\setcounter{page}{1} %Resets page numbers
+\setcounter{page}{1} %Resets page numbers for main body
 \pagenumbering{arabic}
 
 \section{Government} \label{I}
-\input{government}
+\input{government.tex}
 
 \section{Election of Officers} \label{II}
-\input{election_of_officers}
+\input{election_of_officers.tex}
 
 \section{Election of Advisors} \label{III}
-\input{election_of_advisors}
+\input{election_of_advisors.tex}
 
 
 \section{Appointment of Officers and Chairs} \label{IV}
-\input{officer_chair_appointment}
+\input{officer_chair_appointment.tex}
 
 
 \section{Meetings}
-\input{meetings}
+\input{meetings.tex}
 
 
 \section{Election of New Members} \label{VI}
-\input{new_members}
+\input{new_members.tex}
 
 
 \section{Records and Finance} \label{VII}
-\input{records_finance}
+\input{records_finance.tex}
 
 
 \section{Active Status}
-\input{active_status}
+\input{active_status.tex}
 
+\section{Enactment and Amendment} \label{IX}
+\input{amendment.tex}
 
 \appendix
 \titleformat{\section}[display]{\centering\bfseries}{Appendix \ \thesection}{0.1 cm}{}
 
 \section{Undergraduate Electee Requirements} \label{A}
-\input{undergrad_req}
+\input{undergrad_req.tex}
 
 
 \section{Graduate Electee Requirements} \label{B}
-\input{grad_req}
+\input{grad_req.tex}
 
 
 \section{Alumni Candidate Requirements} \label{C}
-\input{alumni_req}
+\input{alumni_req.tex}
 
 
 \section{Distinguished Active Status Guidelines} \label{D}
-\input{DA_req}
+\input{DA_req.tex}
 
 
 \section{Prestigious Active Status Guidelines} \label{E}
-\input{PA_req}
+\input{PA_req.tex}
 
 
 \section{Officer Requirements and Descriptions} \label{F}
-\input{officer_descriptions_and_reqs}
+\input{officer_descriptions_and_reqs.tex}
 
 
 \section{Committees} \label{G}
-\input{committees}
+\input{committees.tex}
 
 
 \section{Chairs} \label{H}
-\input{chairs}
+\input{chairs.tex}
 
 \end{document}
