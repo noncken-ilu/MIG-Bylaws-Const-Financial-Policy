@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[hmargin=3.81cm,vmargin=3.81cm]{geometry} %Changes Margins
+\usepackage{titlesec} %Tools for editing section titles
+\usepackage{appendix} %Appendix creation tools
+\usepackage{tocloft} %Table of Contents
+\usepackage{xfrac} %Fancy Fractions
+\usepackage{hyperref} %Allows for linking to sections and external links
+
+%Formatting the titles and table of contents
+\setlength{\cftsecnumwidth}{2.5em} 
+\cftsetindents{subsection}{2.5em}{3em}
+\cftsetindents{subsubsection}{5.5em}{3em}
+\cftsetindents{paragraph}{8.5em}{3.5em}
+\setlength{\cftbeforesecskip}{0pt}
+\setcounter{tocdepth}{4}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand*\contentsname{\centering\large Contents}
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsubsection}{\thesubsection.\alph{subsubsection}}
+
+\titleformat{\section}[display]{\centering\bfseries}{Bylaw \ \thesection}{0.1cm}{}
+\titleformat{\subsection}[runin]{\scshape}{Section \thesubsection }{0.2cm}{}
+\titleformat{\subsubsection}[runin]{}{(\alph{subsubsection})}{0.1cm}{\textsc}
+
+% Fixes contents title centering
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill\hfill}
+
+% Changes symbols for numerical lists
+\renewcommand{\labelenumi}{(\alph{enumi})}
+\renewcommand{\labelenumii}{(\roman{enumii})}
+\renewcommand{\labelenumiii}{\arabic{enumiii}.}
+
+% Creates subsection lists because why not
+\newcommand{\subsecitem}[2]{\addcontentsline{toc}{subsubsection}{\protect\numberline{\thesubsection.#1}#2} \label{\thesubsection.#1}
+    \textsc{#2}:}
+
+%why does this need to exist?
+\newcommand{\paritem}[2]{\addcontentsline{toc}{paragraph}{\protect\numberline{\thesubsubsection#1}#2} \label{\thesubsubsection#1}}
+
+% For referencing subsubsections
+\newcommand{\rref}[1]{\hyperref[#1]{#1}}
+
+\hypersetup{
+colorlinks=true,
+linkcolor=blue
+} %Allows for linking between sections and to separate sites
+
+\begin{document}
+
+%Title page
+\begin{titlepage}
+    \centering
+    \vspace*{3.7cm}
+
+    \LARGE\textbf{Tau Beta Pi – Michigan Gamma Chapter}
+    \break
+    
+    \LARGE\textbf{Financial Policy}
+    \break
+    \large
+    
+    Adopted: 12 November 2013
+    \\
+    Last Revised by the chapter: (date)
+    \\
+    
+    \vspace{3cm}
+    
+    \includegraphics[width=0.5\textwidth]{TBP Logo.png} \\[1cm]
+    
+\end{titlepage}
+
+\pagenumbering{roman} %Table of contents page numbers
+\tableofcontents
+\newpage
+
+
+\setcounter{page}{1} %Resets page numbers for main body
+\pagenumbering{arabic}
+
+\section*{Preamble} \label{sec:Preamble}
+The Michigan Gamma Chapter of the Tau Beta Pi Association, Inc. was installed at the University of Michigan, Ann Arbor on June 14, 1906.
+\section{Name, Scope, and Precedence} \label{I}
+
+\section{Objectives} \label{II}
+
+\section{Government of the Chapter} \label{III}
+
+\section{Chapter Membership} \label{IV}
+
+\section{Dissolution} \label{V}
+
+\section{Amendment} \label{VI}
+
+\section{Enactment} \label{VII}
+
+
+\end{document}
