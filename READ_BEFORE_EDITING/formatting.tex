@@ -1,0 +1,25 @@
+The formatting of these documents has been chosen arbitrarily by those who have come before. 
+For the sake of your(and future editors') sanity, please abide by this formatting.
+If anything isn't covered in this section, look to examples in the documents for what you are trying to do.
+Unless you have extensive knowledge in Latex, I wouldn't suggest doing anything novel.
+
+
+\subsection{Sectioning} \label{II.1}
+This is a latex subsection. I know it says section, but in the latex code, it is a subsection. For any new section or subsection, ensure there is a label, for future linking.
+\begin{enumerate}
+    \item \subsecitem{a}{Subsubsection} This is the standard formatting for a subsubsection.
+    \item \subsecitem{b}{Subsubsection continued} 
+    As you can see, a predefined command has been supplied for creating this style of subsubsection. 
+    This command ensures that you can link to the subsection and that it shows up in the table of contents.
+    \begin{enumerate}
+        \item \paritem{b.i}{Paragraph} This item(latex paragraph) will show up in the table of contents due to a pre-defined command. This command exists for the government bylaw, and should never be used.
+        \item \label{II.1.b.ii}This item does not show up in the table of contents, but can be linked to using another predefined command(ex: \rref{II.1.b.ii}). 
+        Ideally, these items are short enough that a reference to the enclosing section should be enough. 
+        If one item in a list is defined with the paritem command(\rref{II.1.b.i}), then the rest should also(obviously not the case here).
+    \end{enumerate}
+    \item \addcontentsline{toc}{subsubsection}{\protect\numberline{II.1.c}Subsection without title} \label{\thesubsubsection c}
+    This subsection will show up in the table of contents, but does not have a title in the body. Please don't use this, apart from the areas where it is already in use.
+\end{enumerate}
+
+\subsection{Symbols and Text Formatting} \label{II.2}
+All fractions should be in the sfrac styling, such as $\sfrac{4}{5}$.

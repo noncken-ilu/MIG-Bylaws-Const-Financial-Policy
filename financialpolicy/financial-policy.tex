@@ -19,7 +19,7 @@
 \renewcommand{\thesection}{\Roman{section}}
 \renewcommand{\thesubsubsection}{\thesubsection.\alph{subsubsection}}
 
-\titleformat{\section}[display]{\centering\bfseries}{Bylaw \ \thesection}{0.1cm}{}
+\titleformat{\section}[display]{\centering\bfseries}{Policy \ \thesection}{0.1cm}{}
 \titleformat{\subsection}[runin]{\scshape}{Section \thesubsection }{0.2cm}{}
 \titleformat{\subsubsection}[runin]{}{(\alph{subsubsection})}{0.1cm}{\textsc}
 
@@ -36,7 +36,7 @@
 \newcommand{\subsecitem}[2]{\addcontentsline{toc}{subsubsection}{\protect\numberline{\thesubsection.#1}#2} \label{\thesubsection.#1}
     \textsc{#2}:}
 
-%why does this need to exist?
+%Why does this need to exist?
 \newcommand{\paritem}[2]{\addcontentsline{toc}{paragraph}{\protect\numberline{\thesubsubsection#1}#2} \label{\thesubsubsection#1}}
 
 % For referencing subsubsections
@@ -61,9 +61,9 @@ linkcolor=blue
     \break
     \large
     
-    Adopted: 12 November 2013
+    Adopted: 3 December 2017
     \\
-    Last Revised by the chapter: (date)
+    Last Revised: (date)
     \\
     
     \vspace{3cm}
@@ -80,21 +80,43 @@ linkcolor=blue
 \setcounter{page}{1} %Resets page numbers for main body
 \pagenumbering{arabic}
 
-\section*{Preamble} \label{sec:Preamble}
-The Michigan Gamma Chapter of the Tau Beta Pi Association, Inc. was installed at the University of Michigan, Ann Arbor on June 14, 1906.
-\section{Name, Scope, and Precedence} \label{I}
+\section{Chapter Budget} \label{I}
+\input{chapter-budget.tex}
 
-\section{Objectives} \label{II}
+\section{Budget Pools} \label{II}
+\input{budget-pools.tex}
 
-\section{Government of the Chapter} \label{III}
+\section{Spending Authority} \label{III}
+\input{spending-auth.tex}
 
-\section{Chapter Membership} \label{IV}
+\section{Expenditures} \label{IV}
+\input{expenditures.tex}
 
-\section{Dissolution} \label{V}
+\section{Chapter Property Inventory} \label{V}
+\input{inventory.tex}
 
-\section{Amendment} \label{VI}
+\section{Reimbursements} \label{VI}
+\input{reimbursements.tex}
 
-\section{Enactment} \label{VII}
+\section{Financial Reporting and Reconciliation} \label{VII}
+\input{reporting.tex}
 
+\section{Receipts, Deposits, and Incoming Funds} \label{VIII}
+\input{incoming-funds.tex}
+
+\section{Association Finances} \label{IX}
+\input{association.tex}
+
+\section{Endowments} \label{X}
+\input{endowments.tex}
+
+\section{TBP and SWE Career Fair} \label{XI}
+\input{career-fair.tex}
+
+\section{Record Retention} \label{XII}
+\input{records.tex}
+
+\section{Contracts} \label{XIII}
+\input{contracts.tex}
 
 \end{document}

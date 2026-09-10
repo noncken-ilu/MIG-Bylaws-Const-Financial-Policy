@@ -19,7 +19,7 @@
 \renewcommand{\thesection}{\Roman{section}}
 \renewcommand{\thesubsubsection}{\thesubsection.\alph{subsubsection}}
 
-\titleformat{\section}[display]{\centering\bfseries}{Article \ \thesection}{0.1cm}{}
+\titleformat{\section}[display]{\centering\bfseries}{Part \ \thesection}{0.1cm}{}
 \titleformat{\subsection}[runin]{\scshape}{Section \thesubsection }{0.2cm}{}
 \titleformat{\subsubsection}[runin]{}{(\alph{subsubsection})}{0.1cm}{\textsc}
 
@@ -57,7 +57,7 @@ linkcolor=blue
     \LARGE\textbf{Tau Beta Pi – Michigan Gamma Chapter}
     \break
     
-    \LARGE\textbf{Constitution}
+    \LARGE\textbf{Nicolas' Rules of Editing}
     \break
     \large
     
@@ -80,22 +80,15 @@ linkcolor=blue
 \setcounter{page}{1} %Resets page numbers for main body
 \pagenumbering{arabic}
 
-\section*{Preamble} 
-\addcontentsline{toc}{section}{Preamble}\label{sec:Preamble}
-The Michigan Gamma Chapter of the Tau Beta Pi Association, Inc. was installed at the University of Michigan, Ann Arbor on June 14, 1906.
-\section{Name, Scope, and Precedence} \label{I}
+\section*{Introduction} 
+\addcontentsline{toc}{section}{Introduction}\label{sec:Intro}
+This document details the procedure for editing the constitution, bylaws and financial policy of the TBP-$\Gamma$ Chapter.
 
-\section{Objectives} \label{II}
+\section{Procedure} \label{I}
+\input{procedure.tex}
 
-\section{Government of the Chapter} \label{III}
 
-\section{Chapter Membership} \label{IV}
-
-\section{Dissolution} \label{V}
-
-\section{Amendment} \label{VI}
-
-\section{Enactment} \label{VII}
-
+\section{Formatting} \label{II}
+\input{formatting.tex}
 
 \end{document}
