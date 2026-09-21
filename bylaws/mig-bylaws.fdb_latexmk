@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1789354167.28215 "/Users/nicolasoncken/Documents/GitHub/BylawsTest/bylaws/mig-bylaws.tex" "mig-bylaws.pdf" "mig-bylaws" 1789354167.99266 0
-  "/Users/nicolasoncken/Documents/GitHub/BylawsTest/bylaws/mig-bylaws.tex" 1788982357.16058 3913 5be5626816448800df32ac17750d8aab ""
+["pdflatex"] 1789950254.51153 "/Users/nicolasoncken/Documents/GitHub/BylawsTest/bylaws/mig-bylaws.tex" "mig-bylaws.pdf" "mig-bylaws" 1789950255.23031 0
+  "/Users/nicolasoncken/Documents/GitHub/BylawsTest/bylaws/mig-bylaws.tex" 1789950252.91893 3913 5be5626816448800df32ac17750d8aab ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -79,17 +79,17 @@
   "election_of_advisors.tex" 1788925654.07035 2176 3da4f7812f42ddcb6f14db6e3e6b2fa6 ""
   "election_of_officers.tex" 1789352228.12458 6282 4030f3df3925707110fe06b8ebdc2f88 ""
   "government.tex" 1789352161.63119 9580 d7570f9d322d8f0ae430c9fa8c50a138 ""
-  "grad_req.tex" 1789353698.74987 6710 04819fcf85f783da6280312e053af7a1 ""
+  "grad_req.tex" 1789949985.6492 3666 00ea9874e4155d7d379ad1f2de8c4ea7 ""
   "meetings.tex" 1788925654.07119 1706 7061cc694157c0aeb89de1fc175be03d ""
-  "mig-bylaws.aux" 1789354167.94561 36391 147510a68e807c0dc58752d48b999d56 "pdflatex"
-  "mig-bylaws.out" 1789354167.94831 29166 346a9aa12c665348eded5a5c3fee6ee1 "pdflatex"
-  "mig-bylaws.tex" 1788982357.16058 3913 5be5626816448800df32ac17750d8aab ""
-  "mig-bylaws.toc" 1789354167.94855 16276 0e87b6321e92f16e3500ab0d6420e02b "pdflatex"
+  "mig-bylaws.aux" 1789950255.18532 35770 b8013a28b52973f5fdfd5ce1587b8570 "pdflatex"
+  "mig-bylaws.out" 1789950255.18807 28830 eaf77f64fd190c3edd1c8d0b26420c24 "pdflatex"
+  "mig-bylaws.tex" 1789950252.91893 3913 5be5626816448800df32ac17750d8aab ""
+  "mig-bylaws.toc" 1789950255.18834 16039 7bb5ce8f4aaed7f15c319c4a28f5cd3a "pdflatex"
   "new_members.tex" 1788925654.07136 4974 a177fa0ab3c40a181b10d533c00d471d ""
   "officer_chair_appointment.tex" 1788925654.07154 7353 febfcb91d2cc81cdf30df4d31db82058 ""
-  "officer_descriptions_and_reqs.tex" 1788972883.17807 8374 31e0d761465c95e92a3a96dd4a2de199 ""
+  "officer_descriptions_and_reqs.tex" 1789950236.88512 8578 42692f4f6e29f39a6c082ce542a6246f ""
   "records_finance.tex" 1788925654.07199 3192 4f20835edcc1d83bbe81822e015ad44b ""
-  "undergrad_req.tex" 1789354167.08186 7685 2c9b044cab4b62d87f05264bfd55fb94 ""
+  "undergrad_req.tex" 1789949639.01087 4275 809410b300b397cdac8e110d54697954 ""
   (generated)
   "mig-bylaws.aux"
   "mig-bylaws.log"

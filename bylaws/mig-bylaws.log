@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  13 SEP 2026 22:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  20 SEP 2026 20:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -331,7 +331,7 @@ Package hyperref Info: Link coloring ON on input line 50.
 \@outlinefile=\write3
 \openout3 = `mig-bylaws.out'.
 
-<TBP Logo.png, id=787, 216.81pt x 285.2256pt>
+<TBP Logo.png, id=775, 216.81pt x 285.2256pt>
 File: TBP Logo.png Graphic file (type png)
 <use TBP Logo.png>
 Package pdftex.def Info: TBP Logo.png  used on input line 71.
@@ -357,7 +357,11 @@ Overfull \hbox (1.46217pt too wide) in paragraph at lines 68--103
 [] []|\OT1/cmr/m/sc/10 Section VI.2 Alumni and Em-i-nent En-gi-neer Can-di-dates[] \OT1/cmr/m/n/10 Elec-tion of suit-able alumni
  []
 
-(./records_finance.tex [11]) (./active_status.tex [12]) (./amendment.tex) (./undergrad_req.tex [13]) [14] (./grad_req.tex [15]) (./alumni_req.tex [16]) (./DA_req.tex [17])
+(./records_finance.tex [11]) (./active_status.tex [12]) (./amendment.tex) (./undergrad_req.tex [13]) (./grad_req.tex [14] [15]) (./alumni_req.tex) [16] (./DA_req.tex
+
+LaTeX Warning: Reference `A.11' on page 17 undefined on input line 35.
+
+[17])
 Overfull \hbox (4.17714pt too wide) in paragraph at lines 105--132
 [] []|\OT1/cmr/m/sc/10 Section D.7 Ex-cep-tions[] \OT1/cmr/m/n/10 Where cir-cum-stances merit, the Mem-ber-ship Of-fi-cer may choose
  []
@@ -373,7 +377,7 @@ Overfull \hbox (6.58916pt too wide) in paragraph at lines 47--54
  []
 
 [20]
-Overfull \hbox (3.01695pt too wide) in paragraph at lines 92--99
+Overfull \hbox (3.01695pt too wide) in paragraph at lines 94--101
 []\OT1/cmr/m/sc/10 Professional De-vel-op-ment Of-fi-cer\OT1/cmr/m/n/10 : The Pro-fes-sional De-vel-op-ment Of-fi-cer serves
  []
 
@@ -387,22 +391,25 @@ L3 programming layer <2026-01-19>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.25pt have occurred.
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `mig-bylaws.out' has not changed.
-(rerunfilecheck)             Checksum: 346A9AA12C665348EDED5A5C3FEE6EE1;29166.
+(rerunfilecheck)             Checksum: EAF77F64FD190C3EDD1C8D0B26420C24;28830.
  ) 
 Here is how much of TeX's memory you used:
- 10659 strings out of 467525
- 164235 string characters out of 5418982
- 605396 words of memory out of 5000000
- 39123 multiletter control sequences out of 15000+600000
+ 10650 strings out of 467525
+ 164121 string characters out of 5418982
+ 605199 words of memory out of 5000000
+ 39117 multiletter control sequences out of 15000+600000
  630481 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,449b,735s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on mig-bylaws.pdf (31 pages, 268069 bytes).
+Output written on mig-bylaws.pdf (31 pages, 267981 bytes).
 PDF statistics:
- 1378 PDF objects out of 1440 (max. 8388607)
- 1313 compressed objects within 14 object streams
- 299 named destinations out of 1000 (max. 500000)
- 1566 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1361 PDF objects out of 1440 (max. 8388607)
+ 1297 compressed objects within 13 object streams
+ 296 named destinations out of 1000 (max. 500000)
+ 1542 words of extra memory for PDF output out of 10000 (max. 10000000)
 
